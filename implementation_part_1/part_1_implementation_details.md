@@ -1,24 +1,30 @@
 
 
 ## Implementation Requirements - Part 1
-In part 1 of the implmentation you are supposed to implement the following.
+In part 1 of the implmentation you are supposed to do the following.
 
-1. AWS Network infrastrcture - VPC, Subnets, Route Tables
+1. Create AWS Network infrastrcture - VPC, Subnets, Route Tables
 2. Implement a NAT solution to download application app updates and dependencies
 3. Implement the security groups and NACL as needed - Use least priviledge principle
 4. Application support engineers should be able to login to servers through SSH from their laptops through internet - Implement a suitable solution
+5. You as the DevOps engineer should have CLI access to the cloud environment - Implement aws cli
+6. Give read acess to the developers to view the environement
 
 
 **Please take note of the following unfunctional requirements**
 
 1. Every resource should have the following mandatory tags
     - Name = Resource Name
-    - ApplicationName = Student DB
+    - ApplicationName = StudentDB
     - AppOwner = MIT-MSD
     - CostCenter = MSD
-2. Application should have HA with the region
+2. Application should have HA within the region
 3. Multi-regional redundancy is not required in this phase of the implementation
   
+## Few things to note
+- Organization corporate network uses the 10.0.0.0/8 IP range & existing Azure cloud uses 172.16.0.0/16 range
+
+
 
 ## Solution Diagram
 ![Lab Solution Part 1](../images/aws-lab-solution_part_1.png)
