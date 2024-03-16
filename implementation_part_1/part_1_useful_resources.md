@@ -17,6 +17,9 @@ dnf install -y iptables
 # Change the ens5 interface name accordingly
 sudo iptables -t nat -A POSTROUTING -o ens5 -s 0.0.0.0/0 -j MASQUERADE
 
+# Do the following to make the change permanent
+iptables-save > /etc/sysconfig/iptables
+
 # Make sure to stop the source/destination check in the EC2 instance
 ```
 
