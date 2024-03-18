@@ -49,14 +49,16 @@ You can use the following steps to deploy the application inside a EC2 instance.
 
 # Login to the database
 psql -h studentdb.cpny086a0vbw.us-east-1.rds.amazonaws.com -p 5432 -U lv -d studentdb
-```
 
 
 # Step 1 - Download the application binary - jar file
+
 # Use the latest release in the github repo
 wget https://github.com/lalindrait/studentdb-app/releases/download/v0.0.1/studentdb-0.0.1.jar
 
+
 # Step 2 - Configure datasource settings
+
 # Create a "application.properties" file in the same location as the jar file and add the necessary entries as follows.
 
 vi application.properties
@@ -67,6 +69,7 @@ spring.datasource.username=lv
 spring.datasource.password=lv123456
 
 # Step 3 - Run the application
+
 java -jar studentdb-0.0.1.jar
 
 # Step 4 - Verify applicaiton is up and functioning
@@ -75,7 +78,6 @@ curl http://127.0.0.1:8080/api/v1/student
 
 # If you have jq installed following will give you a formatted json output
 curl http://127.0.0.1:8080/api/v1/student | jq
-
 ```
 
 ### How to use the application
