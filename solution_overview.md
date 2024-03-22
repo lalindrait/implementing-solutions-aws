@@ -1,9 +1,11 @@
 
 ## Solution Overview
 
-You are the DevOps engineer for a small start up. Your company has built an application that needs to be deployed in the AWS cloud.
+You are a DevOps engineer for a small start up. Your company has built an application that needs to be deployed in the AWS cloud.
 
 You are supposed to implement a AWS infrastructure to host this Java application and expose it to the users with the adquate security measures and relevant operational capabilities.
+
+Application is called "studentdb". Application is a very simple Spring Boot app that allows you to view, add, delete, modify student information for a tution class. Interaction is only possible through a REST API and application does not have a web UI
 
 Following are the basic application details
 1. Application runs on Linux
@@ -11,6 +13,7 @@ Following are the basic application details
 3. Application is developed in Java and can run inside a single Linux server
 4. Application uses a postgres database
 5. Application is stateless
+
 
 ## Approach
 We will be implementing the solution in 4 phases

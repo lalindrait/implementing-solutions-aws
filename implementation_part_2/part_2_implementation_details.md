@@ -80,6 +80,9 @@ curl http://127.0.0.1:8080/api/v1/student
 curl http://127.0.0.1:8080/api/v1/student | jq
 ```
 
+
+
+
 ### How to use the application
 Application has no web UI and yuo can only interact with it using the REST API.
 
