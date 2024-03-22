@@ -26,6 +26,18 @@ For example student db app may have following accounts if there are 4 environmen
 - Dev account - AWS-MSD-STUDENTDB-DEV
 
 
+## Measuring network latency in AWS
+
+AWS Region to Region latency \
+https://www.cloudping.co/grid
+
+Latancy to AWS regions from your location \
+https://aws-latency-test.com/ \
+
+Following is a aws test specifically for AWS workspaces \
+https://clients.amazonworkspaces.com/Health.html
+
+
 ## Miscellaneous Notes
 
 ### Application types in an organization
@@ -43,5 +55,3 @@ A landing zone is a well-architected, multi-account AWS environment that is scal
 To learn further please read the following.
 
 https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-aws-environment/understanding-landing-zones.html
-
-
