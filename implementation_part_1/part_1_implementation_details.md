@@ -7,8 +7,8 @@ In part 1 of the implmentation you are supposed to do the following.
 2. Implement a NAT solution to download application app updates and dependencies
 3. Implement the security groups and NACL as needed - Use least priviledge principle
 4. Application support engineers should be able to login to servers through SSH from their laptops through internet - Implement a suitable solution
-5. You as the DevOps engineer should have CLI access to the cloud environment - Implement aws cli
-6. Give read acess to the developers to view the environement - Give access to a dev IAm account called "msd-dev"
+5. You as the DevOps engineer should have CLI access to the cloud environment - Implement aws cli access
+6. Give read acess to the developers to view the environement - Give access to a dev IAM account called "msd-dev"
 
 
 **Please take note of the following unfunctional requirements**
